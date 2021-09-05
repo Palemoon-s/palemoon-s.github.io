@@ -1362,11 +1362,11 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(110deg, #e9defa 0%, #fbfcdb 100%);
-  background: -moz-linear-gradient(110deg, #e9defa 0%, #fbfcdb 100%);
-  background: -o-linear-gradient(110deg, #e9defa 0%, #fbfcdb 100%);
-  background: -ms-linear-gradient(110deg, #e9defa 0%, #fbfcdb 100%);
-  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background: -webkit-linear-gradient(bottom, #accbee 0%, #e7f0fd 100%);
+  background: -moz-linear-gradient(bottom, #accbee 0%, #e7f0fd 100%);
+  background: -o-linear-gradient(bottom, #accbee 0%, #e7f0fd 100%);
+  background: -ms-linear-gradient(bottom, #accbee 0%, #e7f0fd 100%);
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -4146,7 +4146,7 @@ _:future,
   cursor: pointer;
 }
 #pagination .page-number.current {
-  background: #a3bded;
+  background: #accbee;
   color: var(--white);
   cursor: default;
 }
